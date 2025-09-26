@@ -222,12 +222,88 @@ pass generate (folder/what the password is for)
 In order to view the passwords, we can use the same commands as stated in the Step 3.
 
 
+<br>
+<br>
+
+## STEP 5: ADDING METADATA ##
+
+Let's say we want to save our email that is associated to the password. We can add metadata to where the password is stored in order to save this.
+<br>
+1. To do this, use the command:
+
+```bash
+pass edit (name of password)
+```
+
+<br>
+<img width="690" height="35" alt="Screenshot 2025-09-26 at 16 28 57" src="https://github.com/user-attachments/assets/43656ea3-4337-4603-b6c2-65430afd320b" />
+<br>
+<br>
+This will take us into a nano which is a text editor for Linux
+<br>
+<br>
+<img width="796" height="451" alt="Screenshot 2025-09-26 at 16 29 44" src="https://github.com/user-attachments/assets/c0823361-bffe-4e17-92d1-e66e9964ed24" />
+<br>
+<br> 
+From here, we can simply add the data we need
+<br>
+<br>
+<img width="798" height="398" alt="Screenshot 2025-09-26 at 16 30 38" src="https://github.com/user-attachments/assets/b6f38cf2-3a16-44d4-87a5-3bdb3b38ab63" />
+<br>
+<br>
+To save, press:
+
+```bash
+CTRL+X
+Y
+ENTER
+```
+<br>
+
+### NOTE ###
+We can also use this method to edit our password.
+
+<br>
 
 
+<br>
 
+### FINAL NOTES ###
 
+<br>
+Let's say we forgot where we placed a password associated to an email. We can use grep to find the directory.
+<br>
+<br>
 
+```bash
+pass grep "(replace this with email)"
+```
 
+<br>
+
+<img width="793" height="77" alt="Screenshot 2025-09-26 at 16 36 07" src="https://github.com/user-attachments/assets/a764979d-aaa4-4197-9759-66aa7e6789fc" />
+<br>
+<br>
+Let's say we forgot what email we used. We can also use Grep in this scenario:
+
+```bash
+pass grep "email:"
+```
+
+<br>
+
+### COPYING PASSWORDS SECURELY ###
+Let's say we want to copy passwords without displaying them in the terminal. We can use python for this.
+
+```bash
+pass show -c (location of password)
+```
+
+<br>
+
+<img width="779" height="51" alt="Screenshot 2025-09-26 at 16 41 15" src="https://github.com/user-attachments/assets/75c91a37-d39f-4123-8451-489b9be3f909" />
+<br>
+This will copy the password straight to the clipboard and will delete in 45 seconds.
 
 
 
