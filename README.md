@@ -179,13 +179,47 @@ pass show (folder/name of what the password is for)
 <img width="727" height="56" alt="Screenshot 2025-09-26 at 16 02 07" src="https://github.com/user-attachments/assets/61af8dd8-b332-4fba-a686-96b58d71dafc" />
 <br>
 
+## IMPORTANT: To view all passwords within the store, use the command:
 
+```bash
+pass show
+```
+<br>
 
+<img width="688" height="137" alt="Screenshot 2025-09-26 at 16 18 57" src="https://github.com/user-attachments/assets/a1f6d66f-4350-42af-9e4a-deb3a715f8aa" />
 
+<br>
+<br>
 
+## STEP 4: GENERATING PASSWORDS ##
 
+This program allows us to generate very secure passwords
 
+<br>
 
+1. In order to generate a password, we can use the command:
+
+```bash
+pass generate (what the password is for)
+```
+
+<br>
+<img width="710" height="29" alt="Screenshot 2025-09-26 at 16 21 27" src="https://github.com/user-attachments/assets/8b237b9c-8175-4ff3-a4a1-c6ba47388818" />
+<br>
+<img width="404" height="58" alt="Screenshot 2025-09-26 at 16 21 45" src="https://github.com/user-attachments/assets/1ae3376b-8830-44ce-82f6-d4da6b949cde" />
+<br>
+
+2. If you want to generate a password to a nested file, we can use the command:
+
+```bash
+pass generate (folder/what the password is for)
+```
+<br>
+<img width="804" height="32" alt="Screenshot 2025-09-26 at 16 22 48" src="https://github.com/user-attachments/assets/d9065ef3-ddd0-479a-a2cd-1357cfc9d450" />
+<br>
+<img width="470" height="52" alt="Screenshot 2025-09-26 at 16 23 04" src="https://github.com/user-attachments/assets/a321fb58-8693-48be-90bb-2a74222fe68e" />
+<br>
+In order to view the passwords, we can use the same commands as stated in the Step 3.
 
 
 
