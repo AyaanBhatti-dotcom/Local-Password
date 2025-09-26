@@ -268,7 +268,7 @@ We can also use this method to edit our password.
 
 <br>
 
-### FINAL NOTES ###
+## FINAL NOTES ##
 
 <br>
 Let's say we forgot where we placed a password associated to an email. We can use grep to find the directory.
